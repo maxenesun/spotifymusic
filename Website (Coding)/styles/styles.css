@@ -1,0 +1,70 @@
+@import "banner.css";
+@import"button.css";
+@import"footer.css";
+@import"cards.css";
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@200;300&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Syne:wght@500;600;700&display=swap');
+
+body{
+	margin:0;
+  background: linear-gradient(to bottom, #rgb(54, 54, 54));
+  background-color: rgb(54, 54, 54);
+
+}
+
+h1{
+	text-align: center;
+	margin:0;
+	color: #F0F0F0;
+	font-size: 100px;
+	font-family: 'Syne';
+
+}
+
+h2{
+	text-align: center;
+	font-family: Syne;
+	color: black;
+	font-size: 40px;
+
+}
+
+h3{
+	text-align: center;
+	font-family: Inter;
+	color: white;
+	font-size: 17px;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+	width: 90%;
+	margin: 24px auto;
+}
+
+
+p{
+	color:#black;
+	font-family: Inter;
+}
+
+/*// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
